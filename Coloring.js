@@ -4,7 +4,7 @@
 // @version      0.1
 // @require      http://code.jquery.com/jquery-1.12.2.min.js
 // @require      https://gist.githubusercontent.com/raw/2625891/waitForKeyElements.js
-// @description  try to take over the world!
+// @description  Simple Script to change LESA Colors based on discussion tab selection
 // @author       Vilmos Papp
 // @grant        none
 // @match        https://www.liferay.com/web/*/support*
