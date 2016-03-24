@@ -30,7 +30,22 @@ function actionFunction (jNode) {
      var span = $("#_2_WAR_osbportlet_public")
      if (span.hasClass("selected")) {
         recolor(publicColor, publicColorDark)
-     }  
+     }
+     else {
+        span = $("#_2_WAR_osbportlet_liferay")
+        if (span.hasClass("selected")) {
+            recolor(privateColor, privateColorDark)
+        }
+        else {
+            span = $("#_2_WAR_osbportlet_workers")
+            if (span.hasClass("selected")) {
+                recolor(privateColor, privateColorDark)
+            }
+            else {
+                resetColors()
+            }
+        }
+     }
 }
 
 $('#_2_WAR_osbportlet_public').click(function() {
