@@ -2,6 +2,8 @@
 
 This simple script makes it possible to change the background color of LESA based on the selected discussion tab to avoid unintended comments on the public tab.
 
+**This script works only with the new UI of LESA.**
+
 The script can be added to [GreaseMonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) or it's equivalent in other browsers like [Tampermonkey](http://tampermonkey.net/) for Chrome
 
 You can download the script and change the colors under the Colors definitions of the script:
